@@ -1,0 +1,5 @@
+FROM python:3.13.7
+COPY ./ pipeline7
+WORKDIR / pipeline7
+ENTRYPOINT ["python"]
+CMD ["pipeline7"]
